@@ -1,39 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>JavaScript APIs</title>
-  </head>
-  <body>
-    <main
-      style="
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-      "
-    >
-      <div>
-        <h1>JavaScript APIs</h1>
-        <p>
-          Open the Browser Console to view your work (Right-Click => Inspect or
-          fn+F12)
-        </p>
-        <div id="inputContainer">
-          <!-- Add label, input, and button HERE -->
-        </div>
+	<head>
+		<meta charset="UTF-8" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1.0"
+		/>
+		<title>JavaScript APIs</title>
+		<link rel="stylesheet" href="styles.css" />
+		<script src="app.js" defer></script>
+	</head>
+	<body>
+		<div class="sidebox">
 
-        <div id="imageContainer" style="max-width: 680px">
-          <img
-            src="#"
-            alt="Giphy Selection"
-            style="width: 100%; height: auto"
-          />
-        </div>
-      </div>
-    </main>
 
-    <script src="app.js"></script>
-  </body>
+		</div>
+		<main class="main">
+
+
+			<div>
+				<div id="inputContainer">
+					<label for="gifSearch" id="searchElement"></label>
+					<input
+						type="search"
+						id="gifSearch"
+						name="gifSearch"
+						placeholder="Search"
+					/>
+					<button type="button" id="searchBtn">SEARCH</button>
+				</div>
+
+				<div id="imageContainer">
+					<img
+						id="mainGif"
+						src="#"
+						alt="Giphy Selection"
+					/>
+				</div>
+			</div>
+		</main>
+	</body>
 </html>

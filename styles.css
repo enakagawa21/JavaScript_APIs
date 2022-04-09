@@ -1,0 +1,40 @@
+* {
+	box-sizing: border-box;
+}
+
+html,body {
+	margin: 0;
+	padding: 0;
+}
+.main {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-width: 100vw;
+	min-height: 100vh;
+	background-color: #000;
+	text-align: center;
+}
+
+#mainGif {
+	min-width: 600px;
+	min-height: 600px;
+	border-radius: 30px;
+	border: #ccc solid 5px;
+	margin: 20px;
+}
+
+#gifSearch {
+	min-width: 500px;
+	min-height: 30px;
+	margin-right: 25px;
+}
+#searchBtn {
+	width: 300px;
+	height: 30px;
+	color: #fff;
+	background-color: #000;
+	border: #fff solid 1px;
+	border-radius: 10px;
+	cursor: pointer;
+}
